@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-align: center; 
+   
+}
+
+.containeer{
+   width: 1140;
+   margin: 0px auto;
+   height: 100vh;
+   
+   
+}
+.containeer header{
+   position: sticky;   
+    width: 100%;
+    background-color: rgb(246, 85, 117); 
+    padding: 20px;
+    margin:0 auto ;  
+   
+   }
+.containeer header img{
+   width: 60px;
+   height:60px;
+   left: 10px;
+   top: 0px;
+ position: absolute;
+ border-radius: 50px;
+ transition: 1s;
+
+}
+ img:hover{
+   cursor: pointer;
+   
+}
+   .containeer nav{
+    width: 100%;
+    background-color: rgb(16, 205, 243);
+    padding: 10px;
+    margin: 1px auto 0 ;
+    position: fixed;
+    z-index: 2;
+ }
+ ul{
+   list-style-type:none;
+   line-height: auto;
+
+ }
+ ul li{
+ float: left;
+   padding: 5px 20px;
+   margin: 10px;
+   
+ }
+ ul li a{text-decoration: none;
+   text-transform: uppercase;
+   color: aliceblue;
+   padding: 5px 10px;
+   transition: 1s;
+
+
+ }
+ ul li a:hover{
+   cursor: pointer;
+   background-color: rgb(16, 205, 243);
+   padding: 5px 10px;
+   color: rgb(202, 82, 106);
+ }
+ .left{
+    width: 33.33%;
+    height: 400px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 0%;
+    margin: 60px auto 0 ;
+    overflow:auto;
+      
+
+ }
+ .right{
+    width:33.33%;
+    height: 400px;
+    background-color: blueviolet;    
+    position: absolute;
+    right: 0%;
+    margin: 60px auto 0;
+    overflow: scroll;
+       
+ }
+ .center{
+    width: 33.33%;
+    height: 400px;
+    background-color: rgb(226, 43, 43);
+    position: relative;    
+    margin: 60px auto 5px ;
+    overflow: hidden;    
+
+   
+ }
+.footer{
+   position:  absolate;
+    width: 100%;
+    background-color: rgb(16, 205, 243);
+    padding: 15px;
+    margin: 0 auto 0;
+   
+   
+ }
